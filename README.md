@@ -41,7 +41,7 @@ pip install -r requirements.txt
 
 Определите переменные окружения. Создайте файл `.env` в каталоге `echobot-example/` и положите туда такой код:
 ```sh
-TELEGRAM_API_TOKEN=52...215:AAHv...FwbbCZ4
+TELEGRAM_BOT_TOKEN=52...215:AAHv...FwbbCZ4
 ```
 
 Данные выше приведены для примера. `DVMN_API_TOKEN` нужно заменить на токен от сайта Devman, его можно получить [на этой странице](https://dvmn.org/api/docs/). `TELEGRAM_API_TOKEN` замените на токен он чатбота в Telegram. Вот [туториал](https://spark.ru/startup/it-agenstvo-index/blog/47364/kak-poluchit-tokeni-dlya-sozdaniya-chat-bota-v-telegrame-vajbere-i-v-vkontakte), как это сделать. `TELEGRAM_CHAT_ID` замените на свой chat_id в Telegram. Его можно получить у [@userinfobot](https://telegram.me/userinfobot).
